@@ -32,7 +32,7 @@ MediaPlayer.prototype.pause = function() {
 };
 
 MediaPlayer.prototype.togglePlay = function() {
-  this.media.paused ? this.media.play() : this.media.pause()
+  this.media.paused ? this.play() : this.pause()
 }
 
 MediaPlayer.prototype.toggleMute = function() {
